@@ -8,7 +8,7 @@
         }
     },
     "target":{
-        "Simple-Ci":{
+        "simple-ci":{
             "dockerfile": "build/package/Dockerfile",
             "tags": [
                 "ghcr.io/zahra-ehghaghi/simple-ci "
