@@ -12,7 +12,7 @@ COPY . .
 
 RUN go build -o /simple-ci
 
-FROM alpine:lastes AS runtime
+FROM alpine:latest AS runtime
 
 LABEL maintainer="Zahra Ehghaghi <z.ehghaghi@gmail.com>"
 
