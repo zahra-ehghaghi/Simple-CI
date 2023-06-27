@@ -11,7 +11,7 @@
         "simple-ci":{
             "dockerfile": "build/package/Dockerfile",
             "tags": [
-                "ghcr.io/zahra-ehghaghi/simple-ci "
+                "ghcr.io/zahra-ehghaghi/simpleci "
             ]
         }
     }
