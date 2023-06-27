@@ -1,18 +1,18 @@
 {
+    "variable": {
+        "TAG": {
+          "default": "latest"
+        }
+      },
     "group":{
         "default": {
-            "targets":[
-                "simple-ci"
-            
-            ]
+            "targets":["Simple-Ci"]
         }
     },
     "target":{
-        "simple-ci":{
+        "Simple-Ci":{
             "dockerfile": "build/package/Dockerfile",
-            "tags": [
-                "ghcr.io/zahra-ehghaghi/simpleci "
-            ]
+            "tags": ["ghcr.io/zahra-ehghaghi/Simple-Ci:${TAG}"]
         }
     }
 }
