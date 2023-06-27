@@ -12,7 +12,7 @@
     "target":{
         "Simple-Ci":{
             "dockerfile": "build/package/Dockerfile",
-            "tags": ["ghcr.io/zahra-ehghaghi/Simple-Ci:${TAG}"]
+            "tags": ["ghcr.io/zahra-ehghaghi/simple-ci:${TAG}"]
         }
     }
 }
